@@ -13,15 +13,18 @@ class Member:
         print('이름 :',self.name) 
         print('아이디 :',self.nusername)
 
-class Post:
-    def __init__(self, title, content, Member):
-        self.title = title
+##### 예지님이 작성하신 코드입니다#####
+class Post:  # 클래스 선언
+    def __init__(self, title, content, username):  # 생성자 정의
+        self.title = title  # author, content 등은 클래스의 속성
         self.content = content
-        self.username = Member
+        self.author = username
 
-    def display_post(self):
-        print(f"<제목: {self.title}>")
-        print(f"{self.content} by {self.username}")
+    def display_post(self): # 디스플레이
+        print(f'제목 : {self.title}')
+        print(f'닉네임 : {self.author}')
+        print(f'글 내용 : {self.content}')
+#####################################
 
 
 # ----- 코드 실행 ------
