@@ -58,11 +58,11 @@
 
 ## 04. 기타
  - 환경 : python 3.9.6
-![image](./sns_paltform_diagram.jpeg)
  <details>
   <summary> 기능상세 </summary>
   <div markdown="3">
-    ![poster](./sms_paltform_diagram.jpeg)
+      
+![image](./sns_paltform_diagram.jpeg)
   </div>
  </details>
 
