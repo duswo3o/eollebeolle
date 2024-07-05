@@ -17,6 +17,7 @@ class Member:
 
 # ----- Post 코드 정의 ------
 
+
 class Post() : # Post 기본틀
     def __init__(self,title,content,username):
         
